@@ -45,6 +45,8 @@ Save and close.
 Whenever you're merging or rebasing your project and a conflict appears, instead of manually fixing it you open **Git Shell/Bash** and type the following command: `git mergetool`.
 The tool will then resolve those conflicts for you automatically, if there is a conflict that needs human input the fallback tool (i.e: Preforce) will run and show the conflicts that need resolving (don't forget to save your changes and then close).
 
+**You will need then to run the command `git add --all` or `git add .` in order to save the changes made and then `git rebase --continue` when rebasing or `git merge --continue` when merging.**
+
 ## Bonus: Git Large File Storage
 
 Game development involves a lot of large file handling, so it's recommended to use [GLFS](https://git-lfs.github.com/) for large file handling (I haven't used it yet but will soon, I know what it's like to spend 30mins waiting for a git push and breaking it, so please use it).
