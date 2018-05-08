@@ -7,7 +7,7 @@ _Note: you can use this with any Git client, as far as I know (ex: GitHub for Wi
 
 ## Unity Smart Merge set up
 
-1. Download a fallback merge tool of your prefference (some fallback tools are listed in the mergespecfile.txt, mentioned bellow). <br/>
+1. Download a fallback merge tool of your prefference (some fallback tools are listed in the mergespecfile.txt, mentioned bellow). I personally recommend [Diff Merge](https://www.sourcegear.com/diffmerge/downloads.php).<br/>
 _The fallback tool is only used for conflicts that need human input and cannot otherwise be resolved, so you can always just resolve conflicts in the old fashioned way, if ever need be, by using the code editor of your choice! No need to install anything else!_
 
 2. Go to the Unity installation folder in **Editor/Data/Tools and find the mergespecfile.txt** file, the path may vary according to your OS, on Windows it's normally in `C:\Program Files\Unity\Editor\Data\Tools\mergespecfile.txt` or `C:\Program Files (x86)\Unity\Editor\Data\Tools\mergespecfile.txt`. <br/>
@@ -17,7 +17,7 @@ In OSX you can find it in `/Applications/Unity/Unity.app/Contents/Tools/`
 **`unity use "C:\Program Files\Perforce\p4merge.exe" "$BASE" "$LOCAL" "$REMOTE" "$MERGED"`**<br/>
 **`prefab use "C:\Program Files\Perforce\p4merge.exe" "$BASE" "$LOCAL" "$REMOTE" "$MERGED"`**<br/>
 After that, save and close.</br>
-_If you choose to not use any of those tools, leave it empty, insert your editor's url and/or search how to integrate it with a mergetool. Leaving it empty also works._
+_If you choose to not use any of those tools, leave it empty, insert your editor's path and/or search how to integrate it with a diff tool. However, for some programs (like DiffMerge) there's no need to insert the path, it'll automatically work. If you don't want to use any tool Leaving it empty also works._
 
 ## Git set up
 
