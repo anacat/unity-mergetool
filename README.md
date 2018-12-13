@@ -59,4 +59,4 @@ If there is a conflict that needs human input, the fallback tool (i.e: Preforce)
 
 ---
 
-Feel free to contact me @[twitter](http://twitter.com/anacatte) if you have any questions or just wanna chat!
+Feel free to contact me @[anacatte](http://twitter.com/anacatte) if you have any questions or just wanna chat!
